@@ -1,4 +1,4 @@
-add_library(libtdb libtdb.cpp)
+add_library(libtdb process.cpp)
 add_library(tdb::libtdb ALIAS libtdb)
 
 set_target_properties(
